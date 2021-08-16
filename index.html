@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+   body {
+     font-family: avenir;
+     line-height: 2.3
+   }
+body {
+  background-image: url("https://www.commbox.io/wp-content/uploads/2019/10/32-1-1024x597.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  margin: auto;
+}
+
+    </style>
+    </head>
+<header>
+<h1 id="title"> Employee Satisfaction Survey </h1>
+</header>
+
+<body>
+ <p id="description"> Fill out survey below please </p>
+<form id="survey-form">
+
+  <label for="name" id="name-label"> Name </label>
+  <input id="name" type="text" name="name" placeholder="Joe Disgruntal" required> </input>
+  <br>
+  <label for="email" id="email-label">  Email </label>
+  <input id="email" type="email" name="email" placeholder="JoeDisgruntal@gmail.com" required>
+  </input>
+  <br>
+  <label for="number" id="number-label" Age </label>
+  <input id="number" type="number" name="number" placeholder="18" min="18" max="100" required> </input>
+  <br>
+
+  <label for="dropdown" id="Satisfaction"> Select Satisfaction </label>
+  <select id="dropdown">
+   <option value="Excited"> Excited </option>
+   <option value="Happy"> Happy </option>
+   <option value="Meh"> Meh </option>
+   <option value="Bah"> Bah </option>
+   <option value="Sucks"> Sucks </option>
+</select>
+<br>
+<br
+
+<label for="Work_Location" id="Work_Location" <b> Work Location </b> </label>
+  <br>
+   <input id="Work_Location" type="radio" id="Downtown" name="location" value="Downtown">
+   <label for="Work_Location"> Downtown </label>
+   <br>
+   <input id="Work_Location" type="radio" id="Beach Resort" name="location" value="Downtown">
+   <label for="Work_Location"> Beach Resort </label>
+   <br>
+   <input id="Work_Location" type="radio" id="Big Hill" name="location" value="Downtown">
+   <label for="Work_Location"> Big Hill </label>
+
+   <br>
+   <br>
+
+   <label for="Affiliation"> <b> Affiliation </b> </label>
+   <br>
+   <input id="checkbox" type="checkbox" name="Affiliation" value="Union">
+   <label for="checkbox"> Union Member </label>
+   <br>
+   <input id="checkbox" type="checkbox" name="Affiliation" value="Management">
+   <label for="checkbox"> Management </label>
+   <br>
+   <input id="checkbox" type="checkbox" name="Affiliation" value="Freelancer">
+   <label for="checkbox"> Freelancer </label>
+   <br>
+
+   <label id="textarea"> Comments </label>
+   <br>
+   <textarea id="textarea" name="Comments" rows="10" cols="40">
+   </textarea>
+
+  <br>
+
+<input id="submit" type="submit" value="Submit Feedback">
+
+  </form>
+
+  </body>
+  </html>
